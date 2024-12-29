@@ -4,3 +4,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.master-container {
+    display: flex;
+    flex-direction: column;
+    
+    /* justify-content: flex-end; */
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    padding: 16px 192px;
+}
+
+.logo {
+    flex: 2;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links {
+    display: flex;
+    flex: 1;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
