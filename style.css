@@ -59,14 +59,17 @@
 }
 
 .image-placeholder {
-    height: 230px;
-    width: auto;
+    height: 250px;
+    max-width: 536px;
     padding: auto;
     background-color: #6D747D;
+
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-shrink: 0;
+    flex-basis: 536px;
 }
 
 .placeholder-text {
