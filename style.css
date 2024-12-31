@@ -248,4 +248,16 @@
     
 }
 
+.footer {
+    height: 80px;
+    width: 100%;
+    background-color: #202c34;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    color: white;
+}
