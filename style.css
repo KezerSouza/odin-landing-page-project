@@ -19,7 +19,6 @@
 }
 
 .logo {
-    /* flex: 2; */
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -27,10 +26,8 @@
 .links {
     display: flex;
     margin-left: auto;
-    /* flex: 1; */
     list-style: none;
     gap: 24px;
-    /* justify-content: space-between; */
 }
 
 .links a {
@@ -47,7 +44,6 @@
 /*  */
 
 /* First Section */
-
 .first-section {
     height: auto;
     display: flex;
@@ -109,3 +105,15 @@
     font-size: 18px;
 } 
 
+/* Second Section */
+.second-section {
+    height: auto;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+
+    /* padding: 112px 192px 128px 192px; */
+    /* gap: 32px; */
+
+    align-items: center;
+}
