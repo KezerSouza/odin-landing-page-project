@@ -97,7 +97,7 @@
     padding: 8px 32px;
 
     align-self: flex-start;
-
+    border: none;
     color: white;
     border-radius: 8px;
     border: none;
@@ -113,8 +113,6 @@
     flex-direction: column;
 
     padding-bottom: 144px;
-    /* gap: 32px; */
-
     align-items: center;
 }
 
@@ -151,7 +149,7 @@
     flex-direction: column;
     align-items: center;
     gap: 8px;
-}
+}Estúdio Dumativa
 
 .card-text {
     font-size: 18px;
@@ -161,8 +159,13 @@
     text-align: center;
 }
 
+/* Third Section */
 .third-section {
     display: flex;
+    .sign-up-container {
+        display: flex;
+        justify-self: flex-end;
+    }
     justify-content: center;
     padding: 96px 0px 96px 0px;
     background-color: #E5E7EB;
@@ -188,3 +191,61 @@
     font-weight: bold;
     margin-right: 32px;
 }
+
+/* Fourth Section */
+.fourth-section {
+    background-color: white;
+    padding: 144px 0px 144px 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box {
+    background-color: #3882F6;
+    /* max-width: ; */
+    padding: 48px 144px 48px 144px;
+    width: 1024px;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    gap: 128px;
+}
+
+.blue-box-texts {
+
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.call-to-action {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.call-to-action-subtitle {
+    font-size: 16px;
+    color: #e0e1e4;
+}
+
+.sign-up-action {
+    background-color: #3882F6;
+    padding: 8px 32px;
+    width: auto;
+    color: white;
+    border-radius: 8px;
+    border: 2px solid;
+    font-weight: bold;
+    font-size: 18px;
+
+    margin-left: auto;
+    text-wrap: nowrap;
+    
+}
+
+
