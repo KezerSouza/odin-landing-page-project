@@ -5,11 +5,6 @@
     box-sizing: border-box;
 }
 
-.master-container {
-    display: flex;
-    flex-direction: column;
-}
-
 /* Header */
 .header {
     display: flex;
@@ -35,13 +30,6 @@
     font-size: 18px;
     color: #E5E7EB;
 }
-
-/*  */
-.middle {
-    display: flex;
-    flex-direction: column;
-}
-/*  */
 
 /* First Section */
 .first-section {
@@ -74,8 +62,6 @@
 .first-section-left-container {
     display: flex;
     flex-direction: column;
-    flex-grow: 0;
-    flex: 1;
     gap: 16px;
 }
 
@@ -88,7 +74,6 @@
 .first-section-left-container p {
     font-size: 18px;
     color: #e0e1e4;
-    font-weight: 900;
     font-weight: 500;
 }
 
@@ -97,10 +82,9 @@
     padding: 8px 32px;
 
     align-self: flex-start;
-    border: none;
     color: white;
-    border-radius: 8px;
     border: none;
+    border-radius: 8px;
     font-weight: bold;
     font-size: 18px;
 } 
@@ -126,8 +110,9 @@
 .cards-container {
     display: flex;
     justify-content: center;
-
+    
     gap: 32px;
+    flex-wrap: wrap;
 }
 
 .card-box {
@@ -136,20 +121,14 @@
     border: 4px solid;
     border-color: #3882F6;
     border-radius: 18px;
-
-    flex-shrink: 0;
-    flex-basis: 200px;
 }
 
 .card-container {
     display: flex;
-    width: 190px;
-    flex-shrink: 0;
-    flex-basis: 190px;
     flex-direction: column;
     align-items: center;
     gap: 8px;
-}Estúdio Dumativa
+}
 
 .card-text {
     font-size: 18px;
@@ -162,10 +141,6 @@
 /* Third Section */
 .third-section {
     display: flex;
-    .sign-up-container {
-        display: flex;
-        justify-self: flex-end;
-    }
     justify-content: center;
     padding: 96px 0px 96px 0px;
     background-color: #E5E7EB;
@@ -204,7 +179,6 @@
 
 .blue-box {
     background-color: #3882F6;
-    /* max-width: ; */
     padding: 48px 144px 48px 144px;
     width: 1024px;
     border-radius: 10px;
@@ -215,11 +189,9 @@
 }
 
 .blue-box-texts {
-
     display: flex;
     flex-direction: column;
     align-items: left;
-    justify-content: center;
 }
 
 .call-to-action {
@@ -236,7 +208,6 @@
 .sign-up-action {
     background-color: #3882F6;
     padding: 8px 32px;
-    width: auto;
     color: white;
     border-radius: 8px;
     border: 2px solid;
@@ -245,9 +216,9 @@
 
     margin-left: auto;
     text-wrap: nowrap;
-    
 }
 
+/* Footer */
 .footer {
     height: 80px;
     width: 100%;
@@ -260,4 +231,9 @@
 
 .copyright {
     color: white;
+}
+
+/* Some extra styling */
+.sign-up:hover, .sign-up-action:hover {
+    background-color: #0c4094;
 }
